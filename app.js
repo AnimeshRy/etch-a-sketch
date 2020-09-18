@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const div = document.createElement('div');
             div.classList.add('item');
             // changes it to black with mouse hover
-            div.addEventListener('mouseenter', e => {
+            div.addEventListener('pointerenter', e => {
                 div.setAttribute('style', 'background-color: black;');
             });
             container.appendChild(div);   
